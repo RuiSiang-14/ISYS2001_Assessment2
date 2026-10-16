@@ -47,7 +47,7 @@ I added some error handling to prevent the program from crashing when users ente
 
 5.How to Run the Program
 
-1. Open ISYS2001 Finance_Assisstnt.ipynb
+1. Open ISYS2001 Finance_Assisstant.ipynb
 2. Install the required Python libraries: pandas, google-genai and gradio.
 3. Get a Gemini API key from Google AI Studio.
 4. Run the API key cell and enter the key.
@@ -102,5 +102,31 @@ There are still some limitations in my program.
 2. Users need a valid Gemini API key.
 3. Sometimes Gemini cannot answer because the server is busy.
 4. Users need to upload a CSV file with the correct format.
-5. The chatbot
+5. The chatbot only provides general financial advice and is not a professional financial advisor.
+
+10. AI Assistance
+
+I used ChatGPT to help me during this project.
+
+ChatGPT helped me understand some Python concepts, write example code, and solve errors that happened during development.
+
+For example, I used ChatGPT to understand the Gemini API errors and learn how to fix them.
+
+I also used AI to help organise my README and explain my project.
+
+I ran the code in GitHub Codespaces and checked the results while developing the program.
+
+11. Project Files
+
+ISYS2001_Finance_Assistant.ipynb
+
+This is the main notebook that contains the Python calculations, Gemini chatbot, Gradio interface and testing code.
+
+sample_expenses.csv
+
+This file contains example expenses used to test the program.
+
+README.md
+
+This file explains what my project does and how to use it.
 
